@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+        img {
+            width: 100%;
+            margin: auto;
+        }
+
+        #container1{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem; 
+        }
+
+        .myPhoto {
+            width: 100%;
+            height: 15rem;
+            margin: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- <form> -->
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" placeholder="enter student name">
+        <button id="myBtn" onclick="getNamesFromUser()">send</button>
+    </form>
+    <h1>companies</h1>
+    <ul id="unorderList">
+    </ul>
+    <div id="container"> </div>
+    <div id="container1"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
